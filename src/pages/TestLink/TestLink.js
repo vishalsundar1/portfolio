@@ -8,7 +8,7 @@ const TestLink = ({ user }) => {
         <Layout user={ user }>
             <div>
                 <TestLinkTitle> TestLink </TestLinkTitle>
-                
+                <TestLinkItem> <a href="google.com" > Click This!! </a></TestLinkItem>                
             </div>
         </Layout>
     );
