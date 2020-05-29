@@ -4,6 +4,7 @@ import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
+import TestLink from './TestLink';
 
 const Pages = ({ user }) =>{
     return (
@@ -19,6 +20,9 @@ const Pages = ({ user }) =>{
                     <Me user={user} />
                 </Route>
                 <Route exact path = '/'>
+                    <Me user={user} />
+                </Route>
+                <Route exact path = '/testlink'>
                     <Me user={user} />
                 </Route>
             </Switch>
