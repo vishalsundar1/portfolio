@@ -23,9 +23,9 @@ const Pages = ({ user }) => {
         <Route path="/education">
           <Education user={user} />
         </Route>
-        <Route path="/testlink">
+         <Route path="/testlink">
           <TestLink user={user} />
-        </Route>        
+        </Route>         
       </Switch>
     </Router>
   );

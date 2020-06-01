@@ -22,9 +22,9 @@ const Pages = ({ user }) =>{
                 <Route exact path = '/'>
                     <Me user={user} />
                 </Route>
-                <Route exact path = '/testlink'>
+                 <Route exact path = '/testlink'>
                     <Me user={user} />
-                </Route>
+                </Route> 
             </Switch>
         </Router>
     );

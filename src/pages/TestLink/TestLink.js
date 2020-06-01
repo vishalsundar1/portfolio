@@ -10,8 +10,7 @@ const TestLink = ({ user }) => {
                 <TestLinkTitle> TestLink </TestLinkTitle>
                 <ul>
                     <TestLinkItem>
-                            <TestLinkContainer> <p>Hello World!!</p></TestLinkContainer>
-                            
+                            <TestLinkContainer> <p>Hello World!!</p></TestLinkContainer>                            
                         </TestLinkItem>
                     ))}
                 </ul>                

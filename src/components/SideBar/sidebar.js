@@ -9,7 +9,7 @@ const items = [
     {name: 'Projects', path: '/projects'},
     {name: 'Work', path: '/work'},
     {name: 'Education', path: '/education'},
-    {name: 'TestLink', path: '/testlink'}
+    // {name: 'TestLink', path: '/testlink'}
 ];
 
 const Sidebar = () => {
